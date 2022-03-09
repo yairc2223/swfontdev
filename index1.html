@@ -1,0 +1,26 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+    @font-face {
+        font-family: "sw";
+        src: url(yairsw.ttf) format("truetype");
+    }
+
+    p {
+        border: 1px solid black;
+        font-size: 40px;
+        font-family: "sw";
+        -webkit-font-feature-settings:"mark" on;
+        font-feature-settings: "mark","clig","liga" 1;
+
+    }
+</style>
+<body>
+<h3>test1 - one glyph 2 positions - works</h3>
+<p>񀀅𝤛𝤛</p>
+<h3>test2 - boxes should disappear</h3>
+<p>𝠀񆄱𝠃</p>
+<h3>test2 - two glyphs 2 positions</h3>
+<p>񀀂𝤛𝤛񀀃𝤛𝤛񀀅𝤛𝤛</p>
+
+</body>
+
